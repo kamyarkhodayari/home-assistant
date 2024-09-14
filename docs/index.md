@@ -6,3 +6,4 @@ permalink: /
 
 # Home Assistant
 
+Here comes the home page
