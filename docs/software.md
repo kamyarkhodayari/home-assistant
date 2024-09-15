@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hardware"
+title: "Software"
 permalink: /software/
 ---
 
