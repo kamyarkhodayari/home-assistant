@@ -22,3 +22,4 @@ I’ll focus on making everything easy, beginner-friendly, and affordable. Since
 
 - [Hardware](hardware.md)
 - [Software](software.md)
+- [Useful links](links.md)
