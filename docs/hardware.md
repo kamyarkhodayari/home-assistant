@@ -27,6 +27,8 @@ With the Raspberry Pi 4B, you can mount it directly to the back of the screen an
 
 ![Hardware configuration](./assets/hardware-configuration-image1.jpg)
 
+> **Pro Tip**: Before connecting the Pi to the screen with the FFC cable, make sure to check the [Software](software.md) section and set up your microSD card. Once the Pi is mounted to the screen, the microSD card slot will be hard to reach, as shown in the image.
+
 For mounting, I'll use the copper columns that came with the screen, inside a custom 3D printed case.
 
 ## Casing
