@@ -25,7 +25,7 @@ I found a 5-inch capacitive touch screen from Waveshare after searching for a wh
 
 With the Raspberry Pi 4B, you can mount it directly to the back of the screen and connect everything easily. Just use the short FFC cable to hook the Pi into the 15-pin DSI interface on the Pi board, like this:
 
-![Hardware configuration](https://www.waveshare.com/w/upload/8/8b/4.3inch-DSI-LCD-2.jpg)
+![Hardware configuration](./assets/hardware-configuration-image1.jpg)
 
 For mounting, I'll use the copper columns that came with the screen, inside a custom 3D printed case.
 
