@@ -21,5 +21,7 @@ I’ll focus on making everything easy, beginner-friendly, and affordable. Since
 ## Table of content
 
 - [Hardware](hardware.md)
-- [Software](software.md)
+- [Software](software/index.md)
+    - [Installing Raspberry Pi OS](software/os-installation.md)
+    - [Connecting to the Pi](software/find-pi.md)
 - [Useful links](links.md)

@@ -19,7 +19,7 @@ I picked the 4 GB RAM version of the Pi 4 because I’m running everything in Do
 
 > **Oops Moment**: I didn’t realize the Raspberry Pi doesn’t come with internal storage for the OS. Yeah, I forgot the SD card! If you're buying a Pi, make sure you add one to your cart.
 
-I found a 5-inch capacitive touch screen from Waveshare after searching for a while (most were resistive, which I didn’t want). The best part is that it's driverless, so no extra setup is needed to get it working with the Pi. I'll dive more into the details in the [Software](software.md) section.
+I found a 5-inch capacitive touch screen from Waveshare after searching for a while (most were resistive, which I didn’t want). The best part is that it's driverless, so no extra setup is needed to get it working with the Pi. I'll dive more into the details in the [Software](software/index.md) section.
 
 ## Hardware setup
 
@@ -27,7 +27,7 @@ With the Raspberry Pi 4B, you can mount it directly to the back of the screen an
 
 ![Hardware configuration](./assets/hardware-configuration-image1.jpg)
 
-> **Pro Tip**: Before connecting the Pi to the screen with the FFC cable, make sure to check the [Software](software.md) section and set up your microSD card. Once the Pi is mounted to the screen, the microSD card slot will be hard to reach, as shown in the image.
+> **Pro Tip**: Before connecting the Pi to the screen with the FFC cable, make sure to check the [Software](software/index.md) section and set up your microSD card. Once the Pi is mounted to the screen, the microSD card slot will be hard to reach, as shown in the image.
 
 For mounting, I'll use the copper columns that came with the screen, inside a custom 3D printed case.
 

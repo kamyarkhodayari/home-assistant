@@ -1,14 +1,12 @@
 ---
 layout: default
-title: "Software"
-permalink: /software/
+title: "Installing Raspberry Pi OS"
+permalink: /software/os-installation
 ---
 
-# Software
+# Installing Raspberry Pi OS
 
-[Return to Home](index.md)
-
-## Installing the OS on Raspberry Pi
+[Return to Software](index.md)
 
 First things first, you need to install an operating system on your Pi. And for that, you'll need a microSD card.
 
@@ -18,7 +16,7 @@ First things first, you need to install an operating system on your Pi. And for 
 2. **Connect your microSD card to the PC**  
    Open up Raspberry Pi Imager, choose your Pi model (Raspberry Pi 4 in this case), select your OS (I'll be using Raspberry Pi OS 64-bit), and choose your storage (the microSD card you just connected).
 
-   ![Raspberry Pi Imager](./assets/software-configuration-image1.png)
+   ![Raspberry Pi Imager](../assets/software-configuration-image1.png)
 
    Follow the prompts, click "NEXT," and wait for the setup to finish. Once it’s done, safely eject your microSD card.
 
@@ -28,8 +26,7 @@ First things first, you need to install an operating system on your Pi. And for 
    Once the Raspberry Pi OS desktop environment appears on the screen, you're all set! Your Pi is ready to go.
 
 4. **Install the 5-inch Display**  
-   For details on setting up the 5-inch display, check out the [Hardware](hardware.md) section.
+   For details on setting up the 5-inch display, check out the [Hardware](../hardware.md) section.
 
-## Connecting to the Raspberry Pi
 
-Coming soon.
+Next up, let’s connect to our Pi via SSH for the first time! Head over to [Connecting to the Pi](./find-pi.md) to keep going.
