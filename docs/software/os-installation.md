@@ -26,7 +26,7 @@ First things first, you need to install an operating system on your Pi. And for 
 
    ![OS customization - General tab](../assets/software-configuration-image3.png)
 
-   Feel free to adjust the general settings here. I usually set the username and password at this point. Once you're done, head over to the "SERVICES" tab.
+   In the "GENERAL" tab, enable "Configure Wireless LAN" and enter the correct SSID and password to connect your Raspberry Pi to your WiFi network. Make sure to leave the "Set username and password" option disabled so that you can go through the setup wizard during the first boot. After that, navigate to the "SERVICES" tab.
 
    ![OS customization - Services tab](../assets/software-configuration-image4.png)
 
@@ -44,8 +44,16 @@ First things first, you need to install an operating system on your Pi. And for 
    Pop the microSD card into your Raspberry Pi and set up the 5-inch display.
 
    For more details on getting the display set up, head over to the [Hardware](../hardware.md) section.
+      
+   When you're ready, plug your Pi into power using the USB-C adapter. Make sure you’ve got a mouse and keyboard handy to go through the setup wizard. After a bit, you should see the screen pop up on your touchscreen display connected to the Pi.
 
-   Once you're ready, plug the Pi into power using the USB-C adapter. You should see the Pi start booting on the screen. After a bit, the Raspberry Pi OS desktop will appear, and just like that—the OS installation is done! You’re now ready to SSH into the device.
+   ![Initial setup](../assets/software-configuration-image6.png)
+
+   The setup wizard is easy to follow. You can also connect a Bluetooth mouse or keyboard to get through it if needed. You'll start by setting your country, language, and timezone. Then, you'll create a user with a username and password—don’t forget that username because you might need it later for SSH access.
+
+   Next up, you’ll be prompted to set up WiFi, but since you've already configured it through the Imager, you can just skip that step. If you're asked to enable Raspberry Pi Connect, go ahead and do it—this will let you access your Pi remotely later.
+
+   As the last step, you’ll update the software and reboot your Pi. After the reboot, you should see the desktop environment of your new OS. That’s it—everything's ready!
 
 
-Next up, let’s connect to our Pi via SSH for the first time! Head over to [Connecting to the Pi](./find-pi.md) to keep going.
+Next up, let’s connect to our Pi using Pi Connect the first time! Head over to [Connecting to the Pi](./pi-connect.md) to keep going.

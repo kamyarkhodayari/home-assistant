@@ -23,5 +23,5 @@ I’ll focus on making everything easy, beginner-friendly, and affordable. Since
 - [Hardware](hardware.md)
 - [Software](software/index.md)
     - [Installing Raspberry Pi OS](software/os-installation.md)
-    - [Connecting to the Pi](software/find-pi.md)
+    - [Connecting to the Pi](software/pi-connect.md)
 - [Useful links](links.md)
