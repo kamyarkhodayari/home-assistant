@@ -10,7 +10,7 @@ const MainLayout = ({ children }: LayoutProps) => {
                 <p>Welcome home!</p>
             </div>
             
-            <div className="grid grid-cols-4 gap-4">
+            <div className="flex gap-4">
                 {children}
             </div>
         </div>
