@@ -64,7 +64,7 @@ const WeatherWidget = () => {
   }, [isDay, currentWeather]);
 
   return (
-    <WidgetCard cols={2}>
+    <WidgetCard cols={4}>
       {isLoading ? (
         <div>Retrieving information</div>
       ) : currentWeather ? (
